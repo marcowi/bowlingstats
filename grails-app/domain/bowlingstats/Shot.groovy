@@ -19,6 +19,7 @@ class Shot {
     }
 
     static mapping = {
+        sort "num"
         points defaultValue: 0
         binary defaultValue: false
     }
