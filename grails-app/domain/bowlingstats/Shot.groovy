@@ -4,23 +4,18 @@ class Shot {
 
     Integer num
     Integer points
-    Boolean binary
+    PinPattern pinPattern
     Boolean foul
-    Boolean split
-    Boolean miss
 
     static belongsTo = [frame: Frame]
 
     static constraints = {
         foul nullable: true
-        split nullable: true
-        miss nullable: true
-        binary nullable: true
+        pinPattern nullable: true
     }
 
     static mapping = {
         sort "num"
         points defaultValue: 0
-        binary defaultValue: false
     }
 }
