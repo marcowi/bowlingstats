@@ -1,1 +1,2 @@
 grails-app/assets/* linguist-vendored
+/grails-app/assets/* linguist-vendored
