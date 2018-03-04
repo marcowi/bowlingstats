@@ -2,9 +2,10 @@ package bowlingstats
 
 class Game {
 
+    Integer num
     Venue venue
     Integer lane
-    Date createdAt
+    Date dateCreated
     Date lastUpdated
 
     static hasMany = [frames: Frame]

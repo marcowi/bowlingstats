@@ -46,5 +46,6 @@
 
     <asset:javascript src="application.js"/>
 
+    <g:pageProperty name="page.extrajs"/>
 </body>
 </html>

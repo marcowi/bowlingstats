@@ -6,4 +6,9 @@ class Venue {
 
     static constraints = {
     }
+
+    @Override
+    String toString() {
+        return name
+    }
 }

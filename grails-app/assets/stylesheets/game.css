@@ -1,0 +1,53 @@
+.table-points {
+
+}
+
+.table-points .frame-regular{
+
+}
+
+.table-points .frame {
+
+    background-color: lightcoral;
+}
+
+.table-points .shot {
+    text-align: center;
+
+}
+
+.table-points .frame-final{
+
+}
+
+.table-points .result {
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.points {
+    width: 40%;
+    text-align: center;
+    margin: 2em auto;
+}
+
+.input-points {
+    display: table;
+    float: left;
+    margin: 2em auto;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid #5e5e5e;
+    background-color: #edf3f7;
+    text-align: center;
+}
+
+.pins {
+
+}
+
+.pins .pin {
+    text-align: center;
+    line-height: 3em;
+}
+

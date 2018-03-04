@@ -1,0 +1,43 @@
+#form-game-add {
+    width: 80%;
+    margin: 2em auto;
+}
+
+#form-game-add .venue {
+    text-align: right;
+}
+
+#form-game-add #select-venue {
+    height: 3em;
+    min-width: 7em;
+}
+
+#form-game-add #input-lane {
+    width: 4em;
+    height: 3em;
+}
+
+#form-game-add #btn-add-game {
+    width: 4em;
+    height: 3em;
+}
+
+#games {
+    width: 80%;
+    margin: 2em auto;
+}
+
+#games .head .row {
+    color: white;
+    background-color: #3a454b;
+}
+
+#games .game {
+    background-color: #bddff3;
+    line-height: 3em;
+}
+
+#games .game:hover {
+    cursor: pointer;
+    background-color: #7d9cb0;
+}
